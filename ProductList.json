@@ -1,0 +1,13 @@
+[
+    {
+      "name": "Product 1",
+      "price": 10.99,
+      "description": "This is a product description."
+    },
+    {
+      "name": "Product 2",
+      "price": 19.99,
+      "description": "Another product description."
+    }
+  ]
+  
