@@ -40,7 +40,7 @@ async function openWebPageUsingPuppeteer(productList = [], functionType, siteUrl
         if (functionType === 'getProductInformation') {
             let $ = cheerio.load(htmlContent);
 
-            await page.waitForSelector('div.plp-item.product-item', { timeout: 60000 }); // Süreyi 60 saniyeye çıkardık
+            //await page.waitForSelector('div.plp-item.product-item', { timeout: 60000 }); // Süreyi 60 saniyeye çıkardık
 
             var product = {
                 name: siteConfig.functions.getName(productContainer, $),

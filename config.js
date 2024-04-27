@@ -167,8 +167,8 @@ const SITE_CONFIG = {
             requestType : 'puppeteer',
             paginationParamater:'page',
             selectors: {
-                productContainer: "div.plp-item.product-item",
-                productMainContainer: "div.plp-item.product-item"
+                productContainer: ".plp-item.product-item",
+                productMainContainer: ".plp-item.product-item"
             },
             functions:{
                 getName: function(element, $){
